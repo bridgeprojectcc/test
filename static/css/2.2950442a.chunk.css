@@ -1,0 +1,7 @@
+/*!
+ * react-linear-layout v3.0.0
+ *
+ * Copyright (c) 2020, Brandon D. Sara (https://bsara.dev)
+ * Licensed under the ISC license
+ * (https://gitlab.com/bsara/react-linear-layout/blob/master/LICENSE)
+ */.rll__layout{display:flex;flex-wrap:nowrap;justify-content:flex-start;justify-items:flex-start}.rll__layout>*{flex-grow:0;flex-shrink:0;box-sizing:border-box}.rll__horiz{flex-direction:row}.rll__horiz>*{width:var(--linear-layout-item-size);min-width:var(--linear-layout-item-min-size);max-width:var(--linear-layout-item-max-size)}.rll__horiz-with-item-gap>*{margin-left:calc(var(--linear-layout-item-gap)/2);margin-right:calc(var(--linear-layout-item-gap)/2)}.rll__horiz-with-item-gap>:first-child{margin-left:0}.rll__horiz-with-item-gap>:last-child{margin-right:0}.rll__vert{flex-direction:column}.rll__vert>*{height:var(--linear-layout-item-size);min-height:var(--linear-layout-item-min-size);max-height:var(--linear-layout-item-max-size)}.rll__vert-with-item-gap>*{margin-top:calc(var(--linear-layout-item-gap)/2);margin-bottom:calc(var(--linear-layout-item-gap)/2)}.rll__vert-with-item-gap>:first-child{margin-top:0}.rll__vert-with-item-gap>:last-child{margin-bottom:0}.rll__inline{display:inline-flex}.rll__wrapped{flex-wrap:wrap}.rll__layout>*>*{--linear-layout-item-gap:none;--linear-layout-item-size:none;--linear-layout-item-min-size:none;--linear-layout-item-max-size:none}
